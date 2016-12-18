@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>VALIDATION</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Communication info</legend>
+                Email address: <input type="email" name="email_address" required="required">
+                <br>
+                Code: <input type="text" name="zip_code" pattern="\d{5}(-\d{4})?">
+                <br>
+                Url: <input name="profile_url" type="url" readonly="readonly" value="www.google.com">
+                <br>
+                <input type="submit" disabled="disabled" />
+                <br>
+                Quantity: <input type="range" name="issue_quantity" min="1" max="15" >
+                <br>
+                Date: <input type="date" name="service_date" name="" min="2000-01-01" max="2999-12-31">
+                <br>
+                Api key: <input type="text" name="api_key" autocomplete="off">
+                <br>
+                <input type="tel" name="telephone" value="">
+            </fieldset>
+
+        </form>
+    </body>
+</html>

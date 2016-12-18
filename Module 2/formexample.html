@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>HTML Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Text Data</legend>
+            First name: <br/>
+            <input type="text" name="firstName" value="" placeholder="Enter your First name here"/> <br/>
+            Last name: <br/>
+            <input type="text" name="lastName" value="" placeholder="Enter your Last name here"/> <br/>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Numeric Data</legend>
+            Age: <br/>
+            <input type="range" name="age" min="0" max="100" value="25"> <br/>
+            </fieldset>
+            <input type="submit" name="" value="Click Me to Submit"/>
+        </form>
+        <br>
+        <form action="http://www.example.com/formsubmission" method="POST"> First Name: <input type="text" name="fname" /> Last Name: <input type="text" name="lname" /> <input type="submit" value="Save Information" /> </form>
+    </body>
+</html>
